@@ -1,0 +1,19 @@
+.description_item {
+    display: flex;
+}
+
+.description_item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.description_item_name {
+    min-width: 300px;
+    color: #b2b2b2;
+    font-weight: bold;
+}
+
+.buttons_block{
+    display: flex;
+    gap:20px;
+    margin-top: 25px;
+}

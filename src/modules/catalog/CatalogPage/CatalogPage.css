@@ -1,0 +1,41 @@
+.product_card {
+    display: flex;
+    gap: 20px;
+}
+
+.product_description_title {
+    margin-bottom: 15px;
+}
+
+.product_card {
+    margin-top: 15px;
+}
+
+.products_img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 320px;
+}
+
+.product_img.ant-image-img {
+    width: calc(100px - 20px);
+}
+
+.ant-image:first-child .product_img.ant-image-img{
+    width: 300px;
+}
+
+.product_description_price {
+    font-size: 24px;
+    color: #5c5470;
+}
+
+.buttons_block {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttons_block .ant-btn {
+    width: 300px;
+}
